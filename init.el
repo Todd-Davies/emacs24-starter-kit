@@ -27,3 +27,5 @@
     (org-babel-load-file (expand-file-name "starter-kit.org" starter-kit-dir))))
 
 ;;; init.el ends here
+(autoload 'ergo-movement-mode "ergo-movement-mode"
+  "Ergonomic keybindings for cursor movement" 'interactive)
